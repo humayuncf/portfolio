@@ -1,3 +1,12 @@
+/*large screen*/
+@media only screen and (min-width: 1400px) {
+	.experience .counter h1{
+		padding: 27px 0px;
+		font-size: 2rem;
+	}
+}
+
+/*medium screen*/
 @media screen and (max-width: 767px){
 	.banner .myCaption{
 		bottom: 100px !important;
@@ -53,7 +62,7 @@
 	}
 	.dw, .de, .db, .dd1, .dd, .de2, .ds, .di, .dg, .dn, .de3, .dr p{
 	    font-weight: bolder;
-	    font-size: 30px;
+	    font-size: 40px;
 	    color: yellow;
 	    text-shadow: 10px 10px 10px darkorange;
 	}
@@ -101,7 +110,6 @@
 	    position: absolute;
 	    top: var(--textbase);
 	    left: 35px;
-	    /*padding-left: 30px;*/
 	}
 	.d1, .d, .e2, .s, .i, .g, .n, .e3, .r{
 		position: absolute;

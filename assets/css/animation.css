@@ -1,7 +1,7 @@
 :root{
 	--time: 3s;
 	--div0top: -100px;
-	--div100top: 40px;
+	--div100top: 75px;
 	--textbase: 0px;
 	--texttop: -30px;
     --col: yellow;
@@ -22,7 +22,7 @@
 		top: -230px;
 	}
 	100%{
-		top: 70px;
+		top: 110px;
 	}
 }
 .dw, .de, .db, .dd1, .dd, .de2, .ds, .di, .dg, .dn, .de3, .dr p{
