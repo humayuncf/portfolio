@@ -1,0 +1,544 @@
+@media screen and (max-width: 767px){
+	.banner .myCaption{
+		bottom: 100px !important;
+		background: rgba(0, 0, 0, .6);
+	}
+	.about .img{
+		height: 300px;
+	}
+	.project .work-inner .work-content{
+		padding-top: 0;
+		margin-top: 0;
+	}
+	.project .work-inner .work-content .icon{
+		font-size: 35px !important;
+	}
+	:root{
+		--time: 3s;
+
+		--div0top: -100px;
+		--div100top: 10px;
+
+		--textbase: 30px;
+		--text25top: 0px;
+		--texttop: 60px;
+
+		--left0: 35px;
+		--left25: 42px;
+		--left50: 49px;
+		--left75: 56px;
+		--left100: 63px;
+
+		--text2base: 100px;
+		--text2top25: 70px;
+		--text2top: 130px;
+
+		--left-2-50: 13px;
+		--left-2-100: 26px;
+	}
+	.ani-child{
+		position: absolute;
+		z-index: 1;
+		top: 40px;
+		background: rgba(0, 0, 0, .7);
+		animation: ani 0.7s linear 1;
+	}
+	@keyframes ani{
+		0%{
+			top: -120px;
+		}
+		100%{
+			top: 40px;
+		}
+	}
+	.dw, .de, .db, .dd1, .dd, .de2, .ds, .di, .dg, .dn, .de3, .dr p{
+	    font-weight: bolder;
+	    font-size: 30px;
+	    color: yellow;
+	    text-shadow: 10px 10px 10px darkorange;
+	}
+	.dw, .de, .db, .dd1, .dd, .de2, .ds, .di, .dg, .dn, .de3, .dr{
+	    position: absolute;
+	    top: var(--div100top);
+	}
+	.dw{
+	    animation: dw .7s linear 1;
+	}
+	.de{
+	    animation: de .8s linear 1;
+	}
+	.db{
+	    animation: db .9s linear 1;
+	}
+	.dd1{
+	    animation: dd1 .95s linear 1;
+	}
+	.dd{
+	    animation: dd 1s linear 1;
+	}
+	.de2{
+	    animation: de2 1.1s linear 1;
+	}
+	.ds{
+	    animation: ds 1.2s linear 1;
+	}
+	.di{
+	    animation: di 1.3s linear 1;
+	}
+	.dg{
+	    animation: dg 1.4s linear 1;
+	}
+	.dn{
+	    animation: dn 1.5s linear 1;
+	}
+	.de3{
+	    animation: de3 1.6s linear 1;
+	}
+	.dr{
+	    animation: dr 1.7s linear 1;
+	}
+	.w, .e, .b {
+	    position: absolute;
+	    top: var(--textbase);
+	    left: 35px;
+	    /*padding-left: 30px;*/
+	}
+	.d1, .d, .e2, .s, .i, .g, .n, .e3, .r{
+		position: absolute;
+	    top: var(--text2base);
+	    left: 0px;
+	}
+	.w{
+	    animation: w var(--time) linear .8s alternate infinite;
+	}
+	.e{
+	    animation: e var(--time) linear .9s alternate infinite;
+	}
+	.b{
+	    animation: b var(--time) linear 1s alternate infinite;
+	}
+	.d1{
+	    animation: d1 var(--time) linear 1.05s alternate infinite;
+	}
+	.d{
+	    animation: d var(--time) linear 1.1s alternate infinite;
+	}
+	.e2{
+	    animation: e2 var(--time) linear 1.2s alternate infinite;
+	}
+	.s{
+	    animation: s var(--time) linear 1.3s alternate infinite;
+	}
+	.i{
+	    animation: i var(--time) linear 1.4s alternate infinite;
+	}
+	.g{
+	    animation: g var(--time) linear 1.5s alternate infinite;
+	}
+	.n{
+	    animation: n var(--time) linear 1.6s alternate infinite;
+	}
+	.e3{
+	    animation: e3 var(--time) linear 1.7s alternate infinite;
+	}
+	.r{
+	    animation: r var(--time) linear 1.8s alternate infinite;
+	}
+
+	@keyframes dw{
+	    0%{
+	        top: var(--div0top);
+	    }
+	    100%{
+	        top: var(--div100top);
+	    }
+	}
+	@keyframes w{
+	    0%{
+	        top: var(--textbase);
+	        left: var(--left0);
+	    }
+	    25%{
+	    	top: var(--text25top);
+	        left: var(--left25);
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    50%{
+	        top: var(--textbase);
+	        left: var(--left50);
+	        transform: rotate3d(0, 1, 0, 90deg);
+	    }
+	    75%{
+	    	top: var(--texttop);
+	    	left: var(--left75);
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    100%{
+	        top: var(--textbase);
+	        left: var(--left100);
+	    }
+	}
+	@keyframes de{
+	    0%{
+	        top: var(--div0top);
+	    }
+	    100%{
+	        top: var(--div100top);
+	    }
+	}
+	@keyframes e{
+	    0%{
+	        top: var(--textbase);
+	        left: var(--left0);
+	    }
+	    25%{
+	    	top: var(--text25top);
+	        left: var(--left25);
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    50%{
+	        top: var(--textbase);
+	        left: var(--left50);
+	        transform: rotate3d(0, 1, 0, 90deg);
+	    }
+	    75%{
+	    	top: var(--texttop);
+	    	left: var(--left75);
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    100%{
+	        top: var(--textbase);
+	        left: var(--left100);
+	    }
+	}
+	@keyframes db{
+	    0%{
+	        top: var(--div0top);
+	    }
+	    100%{
+	        top: var(--div100top);
+	    }
+	}
+	@keyframes b{
+	    0%{
+	        top: var(--textbase);
+	        left: var(--left0);
+	    }
+	    25%{
+	    	top: var(--text25top);
+	        left: var(--left25);
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    50%{
+	        top: var(--textbase);
+	        left: var(--left50);
+	        transform: rotate3d(0, 1, 0, 90deg);
+	    }
+	    75%{
+	    	top: var(--texttop);
+	    	left: var(--left75);
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    100%{
+	        top: var(--textbase);
+	        left: var(--left100);
+	    }
+	}
+	@keyframes dd1{
+	    0%{
+	        top: var(--div0top);
+	    }
+	    100%{
+	        top: var(--div100top);
+	    }
+	}
+	@keyframes d1{
+	    0%{
+	        top: var(--text2base);
+	        left: 0px;
+	    }
+	    25%{
+	    	top: var(--text2top25);
+	        left: 4px;
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    50%{
+	        top: var(--text2base);
+	        left: 8px;
+	        transform: rotate3d(0, 1, 0, 90deg);
+	    }
+	    75%{
+	    	top: var(--text2top);
+	    	left: 12px;
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    100%{
+	        top: var(--text2base);
+	        left: 16px;
+	    }
+	}
+	@keyframes dd{
+	    0%{
+	        top: var(--div0top);
+	    }
+	    100%{
+	        top: var(--div100top);
+	    }
+	}
+	@keyframes d{
+	    0%{
+	        top: var(--text2base);
+	        left: 0px;
+	    }
+	    25%{
+	    	top: var(--text2top25);
+	        left: 4px;
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    50%{
+	        top: var(--text2base);
+	        left: 8px;
+	        transform: rotate3d(0, 1, 0, 90deg);
+	    }
+	    75%{
+	    	top: var(--text2top);
+	    	left: 12px;
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    100%{
+	        top: var(--text2base);
+	        left: 16px;
+	    }
+	}
+	@keyframes de2{
+	    0%{
+	        top: var(--div0top);
+	    }
+	    100%{
+	        top: var(--div100top);
+	    }
+	}
+	@keyframes e2{
+	    0%{
+	        top: var(--text2base);
+	        left: 0px;
+	    }
+	    25%{
+	    	top: var(--text2top25);
+	        left: 4px;
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    50%{
+	        top: var(--text2base);
+	        left: 8px;
+	        transform: rotate3d(0, 1, 0, 90deg);
+	    }
+	    75%{
+	    	top: var(--text2top);
+	    	left: 12px;
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    100%{
+	        top: var(--text2base);
+	        left: 16px;
+	    }
+	}
+	@keyframes ds{
+	    0%{
+	        top: var(--div0top);
+	    }
+	    100%{
+	        top: var(--div100top);
+	    }
+	}
+	@keyframes s{
+	    0%{
+	        top: var(--text2base);
+	        left: 0px;
+	    }
+	    25%{
+	    	top: var(--text2top25);
+	        left: 4px;
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    50%{
+	        top: var(--text2base);
+	        left: 8px;
+	        transform: rotate3d(0, 1, 0, 90deg);
+	    }
+	    75%{
+	    	top: var(--text2top);
+	    	left: 12px;
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    100%{
+	        top: var(--text2base);
+	        left: 16px;
+	    }
+	}
+	@keyframes di{
+	    0%{
+	        top: var(--div0top);
+	    }
+	    100%{
+	        top: var(--div100top);
+	    }
+	}
+	@keyframes i{
+	    0%{
+	        top: var(--text2base);
+	        left: 0px;
+	    }
+	    25%{
+	    	top: var(--text2top25);
+	        left: 4px;
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    50%{
+	        top: var(--text2base);
+	        left: 8px;
+	        transform: rotate3d(0, 1, 0, 90deg);
+	    }
+	    75%{
+	    	top: var(--text2top);
+	    	left: 12px;
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    100%{
+	        top: var(--text2base);
+	        left: 16px;
+	    }
+	}
+	@keyframes dg{
+	    0%{
+	        top: var(--div0top);
+	    }
+	    100%{
+	        top: var(--div100top);
+	    }
+	}
+	@keyframes g{
+	    0%{
+	        top: var(--text2base);
+	        left: 0px;
+	    }
+	    25%{
+	    	top: var(--text2top25);
+	        left: 4px;
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    50%{
+	        top: var(--text2base);
+	        left: 8px;
+	        transform: rotate3d(0, 1, 0, 90deg);
+	    }
+	    75%{
+	    	top: var(--text2top);
+	    	left: 12px;
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    100%{
+	        top: var(--text2base);
+	        left: 16px;
+	    }
+	}
+	@keyframes dn{
+	    0%{
+	        top: var(--div0top);
+	    }
+	    100%{
+	        top: var(--div100top);
+	    }
+	}
+	@keyframes n{
+	    0%{
+	        top: var(--text2base);
+	        left: 0px;
+	    }
+	    25%{
+	    	top: var(--text2top25);
+	        left: 4px;
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    50%{
+	        top: var(--text2base);
+	        left: 8px;
+	        transform: rotate3d(0, 1, 0, 90deg);
+	    }
+	    75%{
+	    	top: var(--text2top);
+	    	left: 12px;
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    100%{
+	        top: var(--text2base);
+	        left: 16px;
+	    }
+	}
+	@keyframes de3{
+	    0%{
+	        top: var(--div0top);
+	    }
+	    100%{
+	        top: var(--div100top);
+	    }
+	}
+	@keyframes e3{
+	    0%{
+	        top: var(--text2base);
+	        left: 0px;
+	    }
+	    25%{
+	    	top: var(--text2top25);
+	        left: 4px;
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    50%{
+	        top: var(--text2base);
+	        left: 8px;
+	        transform: rotate3d(0, 1, 0, 90deg);
+	    }
+	    75%{
+	    	top: var(--text2top);
+	    	left: 12px;
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    100%{
+	        top: var(--text2base);
+	        left: 16px;
+	    }
+	}
+	@keyframes dr{
+	    0%{
+	        top: var(--div0top);
+	    }
+	    100%{
+	        top: var(--div100top);
+	    }
+	}
+	@keyframes r{
+	    0%{
+	        top: var(--text2base);
+	        left: 0px;
+	    }
+	    25%{
+	    	top: var(--text2top25);
+	        left: 4px;
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    50%{
+	        top: var(--text2base);
+	        left: 8px;
+	        transform: rotate3d(0, 1, 0, 90deg);
+	    }
+	    75%{
+	    	top: var(--text2top);
+	    	left: 12px;
+	        transform: rotate3d(0, 1, 0, 45deg);
+	    }
+	    100%{
+	        top: var(--text2base);
+	        left: 16px;
+	    }
+	}
+}

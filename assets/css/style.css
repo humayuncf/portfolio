@@ -1,0 +1,419 @@
+/****************************
+common area
+*****************************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+:root{
+	--coldark: #183153;
+	--colLight: yellow;
+}
+.text-justify{text-align: justify;}
+/******************************
+nav area
+******************************/
+.navbar{
+	background: var(--coldark) !important;
+	position: sticky;
+	z-index: 5;
+	top: 0;
+	box-shadow: 0px .5px 7px 0.8px var(--coldark);
+}
+.navbar-brand{
+	display: inline-block !important;
+}
+.navbar-brand .icon{
+	color: var(--colLight);
+	font-size: 40px !important;
+}
+.navbar-brand .port{
+	color: whitesmoke;
+}
+.navbar-brand .folio{
+	color: moccasin;
+}
+#myNav li a{
+	color: antiquewhite;
+}
+#myNav li a:hover{
+	color: var(--colLight);
+}
+/*****************************
+banner area
+******************************/
+.banner .img{
+	width: 100% !important;
+	height: 600px;
+}
+.banner .myCaption{
+	bottom: 100px;
+	background: rgba(0, 0, 0, .6);
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	position: absolute;
+	top: 60%;
+}
+/******************************
+about area
+******************************/
+.about{
+	background: /*radial-gradient(rgba(0, 0, .1, .2), rgba(0, 0, 0, .1));*/ azure;
+}
+.about h1{
+	color: var(--coldark) !important;
+	font-weight: bolder;
+}
+.about span{
+	border-color: var(--coldark) !important;
+}
+.about abbr{
+	text-decoration: unset;
+	border-bottom: ;
+	color: navy;
+}
+.about a{
+	background: var(--coldark);
+	color: var(--colLight);
+	font-weight: bolder;
+}
+.about a:hover{
+	color: white;
+	background: rgba(120, 137, 37, 0.7);
+	font-weight: bolder;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
+}
+.about .img{
+	height: 300px;
+}
+.img-padding{	padding-left: 13%;}
+/******************************
+experience area
+******************************/
+.experience{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), 
+	url('../img/counter-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+.experience h1, .features h1{
+	color: paleturquoise;
+}
+.experience .card{
+	border: 1px solid var(--coldark);
+	box-shadow: 2px 2px 6px 2px paleturquoise;
+}
+.experience .icon{
+	font-size: 55px;
+	color: greenyellow;
+}
+.experience .counter{
+	height: 120px;
+	width: 120px;
+	border: 9px solid gainsboro;
+	border-radius: 50%;
+	color: var(--colLight);
+	margin: 0px auto;
+}
+.experience h6, .card h5{
+	color: lemonchiffon;
+}
+.experience .counter h1{
+	padding: 27% 0px;
+	color: paleturquoise;
+}
+/******************************
+project area
+******************************/
+.project .row div{
+	padding: 0;
+	margin: 0;
+}
+.project h1{
+	color: darkred;
+}
+.project h6{
+	color: grey;
+}
+.project .work-inner img{
+	transition: .5s;
+	margin: 0;
+    padding: 0;
+    border: 1px solid #fff;
+}
+.project .work-inner{
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+.project .work-inner:hover img{
+	transform: scale(1.3);
+}
+.project .work-inner .wrapper{
+	display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+}
+.project .work-inner .work-content{
+	position: absolute;
+    top: -100%;
+    width: inherit;
+    height: inherit;
+    background: rgba(0, 0, 20, 0.7);
+    transition: .4s linear;
+}
+.project .work-inner .work-content{
+	padding-top: 18%;
+}
+.project .work-inner:hover .work-content{
+	top: 0%;
+}
+.project .work-inner .work-content h5{
+	color: var(--colLight);
+}
+.project .work-inner .work-content p{
+	color: paleturquoise;
+}
+.project .work-inner .work-content .icon{
+	font-size: 55px;
+	color: greenyellow;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+/******************************
+features area
+******************************/
+.moccasin{color: moccasin;}
+#features {
+	background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/contact.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#features [class*='box-']{
+	position: relative;
+	color: white;
+	height: auto;
+	width: 30%;
+}
+
+#features .box-one{background: background: rgba(120, 137, 37, 0.7); top: 20%; left: 17%;}
+#features .box-two{background: darkred; top: 20%; left: 25%;}
+#features .box-three{background: seagreen; top: 40%; left: 5%;}
+#features .box-four{background: teal; top: 40%; left: 35%;}
+#features .box-five{background: darkgreen; top: 60%; left: 17%;}
+#features .box-six{background: midnightblue; top: 60%; left: 25%;}
+
+#features .box-one{animation: box-one 15s ease-in-out 2s alternate infinite;}
+#features .box-two{animation: box-two 15s ease-in-out 2s alternate infinite;}
+#features .box-three{animation: box-three 15s ease-in-out alternate infinite;}
+#features .box-four{animation: box-four 15s ease-in-out alternate infinite;}
+#features .box-five{animation: box-five 15s ease-in-out 3.6s alternate infinite;}
+#features .box-six{animation: box-six 15s ease-in-out 3.6s alternate infinite;}
+
+@keyframes box-one{
+	0%{
+		left: 17%;
+		background: rgba(120, 137, 37, 0.7);
+	}
+	49%{
+		background: transparent;
+		color: transparent;
+		left: 17%;
+	}
+	51%{
+		background: transparent;
+		color: transparent;
+		left: 55%;
+	}
+	55%{
+		background: transparent;
+		color: transparent;
+		left: 55%;
+	}
+	100%{
+		background: var(--coldark);
+		left: 55%;
+	}
+}
+@keyframes box-two{
+	0%{
+		left: 25%;
+		background: darkred;
+	}
+	49%{
+		left: 25%;
+		background: transparent;
+		color: transparent;
+	}
+	51%{
+		left: -13%;
+		background: transparent;
+		color: transparent;
+	}
+	53%{
+		left: -13%;
+		background: transparent;
+		color: transparent;
+	}
+	100%{
+		background: darkolivegreen;
+		left: -13%;
+	}
+}
+@keyframes box-three{
+	0%{
+		background: seagreen;
+		left: 5%;
+	}
+	49%{
+		background: transparent;
+		color: transparent;
+		left: 5%;
+	}
+	51%{
+		background: transparent;
+		color: transparent;
+		left: 65%;
+	}
+	55%{
+		background: transparent;
+		color: transparent;
+		left: 65%;
+	}
+	100%{
+		background: lightslategray;
+		left: 65%;
+	}
+}
+@keyframes box-four{
+	0%{
+		left: 35%;
+		background: teal;
+	}
+	49%{
+		left: 35%;
+		background: transparent;
+		color: transparent;
+	}
+	51%{
+		left: -25%;
+		background: transparent;
+		color: transparent;
+	}
+	53%{
+		left: -25%;
+		background: transparent;
+		color: transparent;
+	}
+	100%{
+		background: peru;
+		left: -25%;
+	}
+}
+@keyframes box-five{
+	0%{
+		left: 17%;
+		background: darkgreen;
+	}
+	49%{
+		background: transparent;
+		color: transparent;
+		left: 17%;
+	}
+	51%{
+		background: transparent;
+		color: transparent;
+		left: 55%;
+	}
+	55%{
+		background: transparent;
+		color: transparent;
+		left: 55%;
+	}
+	100%{
+		background: goldenrod;
+		left: 55%;
+	}
+}
+@keyframes box-six{
+	0%{
+		left: 25%;
+		background: midnightblue;
+	}
+	49%{
+		left: 25%;
+		background: transparent;
+		color: transparent;
+	}
+	51%{
+		left: -13%;
+		background: transparent;
+		color: transparent;
+	}
+	53%{
+		left: -13%;
+		background: transparent;
+		color: transparent;
+	}
+	100%{
+		background: darkslategray;
+		left: -13%;
+	}
+}
+/**************************
+ contact page
+**************************/
+.information{
+	height: 85%;
+	background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/contact.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.information h4{color: lightsteelblue;}
+.information p{color: moccasin;}
+.information .btn{background: cyan;}
+.information .btn{
+	background: rgba(120, 137, 37, 0.7);
+	color: var(--colLight);
+	font-weight: bolder;
+
+}
+.information .btn:hover{
+	color: white;
+	background: var(--coldark);
+	font-weight: bolder;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
+}
+.contact-inner {
+	height: 85%;
+	background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/contact-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.contact-inner p{color: paleturquoise;}
+.contact-inner .contact{padding-left: 25px;}
+.contact-inner a{text-decoration: none; color: var(--colLight);}
+.contact-inner .icon {
+	color: yellowgreen;
+	font-size: 20px;
+}
+
+/**************************
+ footer
+**************************/
+.footer{background: gainsboro;}
+.footer p{color: maroon;}
+.footer a{color: var(--coldark);}
