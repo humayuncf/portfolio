@@ -47,21 +47,23 @@ banner area
 ******************************/
 .banner .img{
 	width: 100% !important;
-	height: 600px;
+	height: 630px;
 }
 .banner .myCaption{
-	bottom: 100px;
+	bottom: 130px;
 	background: rgba(0, 0, 0, .6);
 }
 .carousel-control-prev-icon, .carousel-control-next-icon{
 	position: absolute;
-	top: 60%;
+	top: 58%;
 }
+.carousel-indicators{position: absolute; bottom: 4%;}
+
 /******************************
 about area
 ******************************/
 .about{
-	background: /*radial-gradient(rgba(0, 0, .1, .2), rgba(0, 0, 0, .1));*/ azure;
+	background: azure;
 }
 .about h1{
 	color: var(--coldark) !important;
@@ -407,7 +409,7 @@ features area
 .contact-inner .contact{padding-left: 25px;}
 .contact-inner a{text-decoration: none; color: var(--colLight);}
 .contact-inner .icon {
-	color: yellowgreen;
+	color: greenyellow;
 	font-size: 20px;
 }
 

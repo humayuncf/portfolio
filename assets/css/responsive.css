@@ -12,9 +12,15 @@
 		bottom: 100px !important;
 		background: rgba(0, 0, 0, .6);
 	}
+	.carousel-control-prev-icon, .carousel-control-next-icon{
+		position: absolute;
+		top: 64% !important;
+	}
 	.about .img{
 		height: 300px;
 	}
+	.about-content{padding-top: 25px!important;}
+	.img-padding{padding-left: 13px !important;}
 	.project .work-inner .work-content{
 		padding-top: 0;
 		margin-top: 0;
@@ -25,12 +31,12 @@
 	:root{
 		--time: 3s;
 
-		--div0top: -100px;
+		--div0top: -140px;
 		--div100top: 10px;
 
-		--textbase: 30px;
-		--text25top: 0px;
-		--texttop: 60px;
+		--textbase: 40px;
+		--text25top: 10px;
+		--texttop: 70px;
 
 		--left0: 35px;
 		--left25: 42px;
@@ -38,14 +44,14 @@
 		--left75: 56px;
 		--left100: 63px;
 
-		--text2base: 100px;
-		--text2top25: 70px;
-		--text2top: 130px;
+		--text2base: 110px;
+		--text2top25: 80px;
+		--text2top: 140px;
 
 		--left-2-50: 13px;
 		--left-2-100: 26px;
 	}
-	.ani-child{
+	/*.ani-child{
 		position: absolute;
 		z-index: 1;
 		top: 40px;
@@ -59,7 +65,7 @@
 		100%{
 			top: 40px;
 		}
-	}
+	}*/
 	.dw, .de, .db, .dd1, .dd, .de2, .ds, .di, .dg, .dn, .de3, .dr p{
 	    font-weight: bolder;
 	    font-size: 40px;
